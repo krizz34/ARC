@@ -31,14 +31,14 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo customLogo' onClick={closeMobileMenu}>
-                    <img src={logo} alt="logo of FimliHub" className="img-fluid customNavBrand" style={{ maxHeight: '35px', marginTop: '5px' }} />
+                    <img src={logo} alt="logo of ARC" className="img-fluid customNavBrand" style={{ maxHeight: '35px', marginTop: '5px' }} />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li to='/' className='nav-item'>
-                        <Link className='nav-links' onClick={closeMobileMenu}>
+                    <li className='nav-item'>
+                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
