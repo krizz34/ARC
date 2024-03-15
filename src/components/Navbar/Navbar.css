@@ -34,6 +34,10 @@
     align-items: center;
     font-family: "NasalizationRg-Regular", sans-serif;;
   }
+
+  .customNavBrand:hover {
+    transform: scale(1.05);
+}
   
   .fa-typo3 {
     margin-left: 0.5rem;
